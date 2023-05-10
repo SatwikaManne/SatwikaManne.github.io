@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CaRs | About Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-image: url('car-background.jpg');">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+            
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font-family: 'Playfair Display', serif;
+                display: grid;
+                align-content: center;
+                min-height: 100vh;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                min-height: 70vh;
+                width: 75vw;
+                margin: 0 auto;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 12px
+            }
+            .image{
+                background-color: transparent;
+                display: flex;
+                border-radius: 12px 0 0 12px;
+            }
+            .image img{
+                height:50vh;
+                margin:50px auto
+            }
+            .content{
+                background-color: rgba(0, 0, 0, 0.5);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 0  12px 12px 0;
+                color: #fff;
+            }
+            .content h2{
+                /* Add your styles here */
+            }
+        </style>
+        <section>
+            <div class="image">
+                <img src="car-image.jpg" alt="Car Image">
+            </div>
+            <div class="content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien velit sed sapien. Sed euismod, sapien vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien velit sed sapien.</p>
+            </div>
+        </section>
+    </body>
+</html>

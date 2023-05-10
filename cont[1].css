@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url("../images/contact.jpg"); */
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 900;
+    color:orange;
+    margin-top: -100px;
+    size: 10px 20px;
+    
+}
+
+
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container .contactInfo .box{
+    position: relative;
+    padding:20px 0;
+    display:flex;
+    margin-left: 200px;
+    margin-top: -5px;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    flex-direction: column;
+    font-weight: 300;
+    
+
+}
+
+
+.container .contactInfo .box .text p{
+    font-weight: 600;
+    color:Maroon;
+}
